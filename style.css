@@ -14,6 +14,10 @@ body{
 
 }
 
+main > p{
+    text-align: justify;
+}
+
 h1{
     text-align: center;
     font-weight: bolder;
@@ -38,8 +42,8 @@ color: #777
 }
 
 .more-articles p{
-    text-align:left;
-    width: 50%;
+    text-align: justify;
+    width:90%;
 }
 
 a{
@@ -58,8 +62,12 @@ h4{
 nav{
     border-top: 1px solid grey;
     border-bottom: 1px solid grey;
+    background: white;
+    position: sticky;
+    top: 1em;
 }
 
 .more-articles > section{
     display: inline-block;
+    width: 49%;
 }
